@@ -30,7 +30,7 @@ def main():
             self.bed_length = bed_length
 
         def display_option(self):
-            super().display_option()
+            super().display_option() #gets methods from parent class
             print(f"The bed length is: {self.bed_length}")
 
     print("Welcome to the Bellevue University Virtual Garage \n")
